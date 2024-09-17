@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.progressbar {
+  height: 3px;
+  margin: 2px 0;
+  background-color: red;
+  animation-name: load;
+  animation-duration: 2s;
+}
+@keyframes load {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+nav {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.5) 1.9px 1.9px 1.5px;
+}
+
+.company-logo img {
+  width: 220px;
+}
+.nav-links {
+  flex-basis: 730px;
+}
+
+.nav-links ul {
+  justify-content: end;
+  gap: 40px;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+ul li a:hover {
+  color: rgb(2, 10, 238);
+  transition: 0.3s ease-out;
+}
+
+/* navigation end */
+
